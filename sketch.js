@@ -50,7 +50,7 @@ function preload(){
 function setup() {
 
 	createCanvas(windowWidth,600);
-// backgroundmusic.loop(true);
+ backgroundmusic.loop(true);
 
 	engine = Engine.create();
 	world = engine.world;
